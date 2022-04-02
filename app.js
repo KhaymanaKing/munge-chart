@@ -28,3 +28,5 @@ const myChart = new Chart(
     document.getElementById('myChart'),
     config
 );
+
+//TODO Line chart for cool factor, pie chart showing gender

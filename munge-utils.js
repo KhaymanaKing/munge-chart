@@ -18,3 +18,4 @@ export function customerFreq(){
     }
     return countMap;
 }
+//TODO cool factor count & gender count
