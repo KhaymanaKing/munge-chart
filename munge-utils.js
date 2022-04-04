@@ -19,3 +19,19 @@ export function customerFreq(){
     return countMap;
 }
 //TODO cool factor count & gender count
+
+export function cool(){
+
+    const countMap = {}; 
+
+    for (let customer of customers) {
+        const coolFactor = customer.cool_factor;
+
+        if (countMap[coolFactor]) {
+            countMap[coolFactor]++;
+        } else {
+            countMap[coolFactor] = 1;
+        }
+    }
+    return countMap;
+}

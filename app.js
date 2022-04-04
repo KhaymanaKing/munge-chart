@@ -2,7 +2,7 @@ import { customerFreq } from './munge-utils.js';
 
 const countMap = customerFreq();
 
-console.log(countMap);
+
 
 const labels = Object.keys(countMap);
 
@@ -28,5 +28,8 @@ const myChart = new Chart(
     document.getElementById('myChart'),
     config
 );
+
+
+
 
 //TODO Line chart for cool factor, pie chart showing gender
