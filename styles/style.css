@@ -31,17 +31,17 @@ body {
     background-color: var(--color2);
 }
 
-main {
+/* main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
-}
+} */
 
 section {
     background-color: var(--color5);
-    max-width: 80%;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,11 +81,15 @@ p {
   
 footer {
     position: fixed;
-    width: 100%;
+  
     bottom: 0;
     height: var(--footer-height);
     display: flex;
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+}
+canvas#myChart {
+    width: 10000%;
+    height: 10000%;
 }
