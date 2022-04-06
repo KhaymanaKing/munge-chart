@@ -35,3 +35,19 @@ export function cool(){
     }
     return countMap;
 }
+
+export function genderCount(){
+
+    const countMap = {}; 
+
+    for (let customer of customers) {
+        const genderNumber = customer.gender;
+
+        if (countMap[genderNumber]) {
+            countMap[genderNumber]++;
+        } else {
+            countMap[genderNumber] = 1;
+        }
+    }
+    return countMap;
+}
